@@ -37,4 +37,4 @@ elif select == 3:
 elif select == 4:
     print(n1, "/", n2, "=", div(n1, n2))
 else:
-    print("Error 404")
+    print("Input Error")
