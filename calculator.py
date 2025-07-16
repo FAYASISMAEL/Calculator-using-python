@@ -11,7 +11,6 @@ def div (n1, n2):
     return n1 / n2
 
 # options to select the operators.
-
 print("Select the options: -\n"
       "1. Add\n"
       "2. Substract\n"
@@ -22,12 +21,10 @@ print("Select the options: -\n"
 select = int(input("Select any option: "))
 
 # number inputs.
-
 n1 = int(input("Enter your First number: "))
 n2 = int(input("Enter your Second number: "))
 
 # calculation conditions.
-
 if select == 1:
     print(n1, "+", n2, "=", add(n1, n2))
 elif select == 2:
